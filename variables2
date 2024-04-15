@@ -17,14 +17,13 @@
   </head>
 
   <body>
-
     <section class="preview">
 
 
 
     </section>
 
-  </body>
+    <textarea class="playable playable-js" style="height: 220px;">
   <script>
 
     let myName = 'Gabo';
@@ -35,6 +34,12 @@
     const para = document.createElement('p');
     para.textContent = myName;
     section.appendChild(para);
-  </script>
+  </textarea>
 
+    <div class="playable-buttons">
+      <input id="reset" type="button" value="Reset" />
+    </div>
+  </body>
+  <script class="editable"></script>
+  <script src="../playable.js"></script>
 </html>
