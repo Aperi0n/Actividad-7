@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8"/>
     <title>Variables: Task 1</title>
+    <link rel="stylesheet" href="../styles.css" />
     <style>
       p {
         color: purple;
@@ -13,18 +14,16 @@
         box-sizing: border-box;
       }
     </style>
-    <link rel="stylesheet" href="../styles.css" />
-  </head>
+    </head>
 
   <body>
-
     <section class="preview">
 
 
 
     </section>
 
-  </body>
+    <textarea class="playable playable-js" style="height: 220px;">
   <script>
  
  
@@ -37,5 +36,12 @@
     section.appendChild(para1);
     section.appendChild(para2);
   </script>
+  </textarea>
 
+    <div class="playable-buttons">
+      <input id="reset" type="button" value="Reset" />
+    </div>
+  </body>
+  <script class="editable"></script>
+  <script src="../playable.js"></script>
 </html>
