@@ -26,11 +26,9 @@
 
   </body>
   <script>
-    // Add your code here
 
     let myName = 'Gabo';
 
-    // Don't edit the code below here!
 
     const section = document.querySelector('section');
 
