@@ -33,9 +33,9 @@
     const section = document.querySelector('section');
 
     const para1 = document.createElement('p');
-    para1.textContent = Gabo;
+    para1.textContent = MyName;
     const para2 = document.createElement('p');
-    para2.textContent = 19;
+    para2.textContent = MyAge;
     section.appendChild(para1);
     section.appendChild(para2);
   </script>
